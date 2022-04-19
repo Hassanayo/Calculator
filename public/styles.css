@@ -7,18 +7,10 @@
 }
 
 body {
-  height: 800px;
+  height: 2000px;
+
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(315deg, #6CA6C1 0%, #2F3061 74%);
-}
-@media (max-width: 600px){
-  body {
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(315deg, #6CA6C1 0%, #ee0b0b 74%);
-  }
-}
+}z
