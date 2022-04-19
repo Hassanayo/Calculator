@@ -8,11 +8,13 @@
 
 body {
   height: 100vh;
-  overflow: auto;
-  max-height: 150%;
+  /* bobile viewport bug fix */
+ 
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fbb034;
   background-image: linear-gradient(315deg, #6CA6C1 0%, #2F3061 74%);
-}z
+}
+html {
+  height: -webkit-fill-available;
+}
